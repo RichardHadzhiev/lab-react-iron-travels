@@ -36,3 +36,34 @@
 .text-iron {
   color: #0a035a;
 }
+
+.travel {
+  display: flex;
+  align-items: flex-start;
+  margin: 60px;
+  border: 1px solid white;
+}
+.travel img {
+  max-width: 40%;
+  height: auto;
+  margin: 40px;
+}
+.travel div {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.travel div h1 {
+  margin: 50px 0;
+  font-size: 80px;
+}
+
+.travel div h3 {
+  margin: 50px 0;
+  font-size: 35px;
+}
+
+.travel div p {
+  margin: 50px 0;
+  font-size: 40px;
+}
